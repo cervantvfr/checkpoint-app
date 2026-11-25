@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: appointments
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
